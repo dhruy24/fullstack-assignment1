@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+	<head></head>
+	<body>
+	<h1> Registration Form</h1>
+	<div id = "regis_form">
+		
+		<form onsubmit="savedata(event)">
+			
+			<label for "pdf" id="pdffile">Upload File</label >
+			<input type ="file" class ="pdf" name ="pdf" id ="pdf" onchange="readURL(this)">
+			
+			<label for "video" id="videofile">Upload Video</label>
+			<input type ="file" class ="video" name ="video" id ="video"  multiple="multiple"><br>
+			
+			<button type="submit" onclick="showpdf()" >DONE</button>
+			
+			</div>
+			
+			
+		</form>
+	
+	 
+	</div>
+	
+	<script src="menujs.js"></script>
+	
+	</body>
+</html> 
